@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ANNinjaReport.h"
 
 @interface ANNinjaAgent : NSObject
 + (id)sharedNinjaAgent;
+- (id)spy;
+- (ANNinjaReport*)report;
+- (void)andSelectIndexAt:(NSInteger)select;
+- (void)complete;
 @end

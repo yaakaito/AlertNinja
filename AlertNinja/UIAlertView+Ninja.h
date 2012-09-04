@@ -9,7 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIAlertView (Ninja)
-
-+ (id)spy;
-+ (void)complete;
++ (id)ninja;
 @end

@@ -9,27 +9,34 @@
 /* Begin PBXBuildFile section */
 		B98B807315F5D28F00583C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
 		B98B807815F5D28F00583C39 /* AlertNinja.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B98B807715F5D28F00583C39 /* AlertNinja.h */; };
-		B98B808215F5D29000583C39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B808115F5D29000583C39 /* SenTestingKit.framework */; };
-		B98B808515F5D29000583C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
-		B98B808815F5D29000583C39 /* libAlertNinja.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B806F15F5D28F00583C39 /* libAlertNinja.a */; };
-		B98B808E15F5D29000583C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B98B808C15F5D29000583C39 /* InfoPlist.strings */; };
-		B98B809115F5D29000583C39 /* AlertNinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B809015F5D29000583C39 /* AlertNinjaTests.m */; };
 		B98B809E15F66D7100583C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B809D15F66D7100583C39 /* UIKit.framework */; };
-		B98B80A015F66F1400583C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B809D15F66D7100583C39 /* UIKit.framework */; };
-		B98B80A315F66F2E00583C39 /* NinjaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80A215F66F2E00583C39 /* NinjaViewController.m */; };
 		B98B80A615F6795100583C39 /* UIAlertView+Ninja.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */; };
-		B98B80A715F6795100583C39 /* UIAlertView+Ninja.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */; };
 		B98B80B915F682A700583C39 /* ANNinjaAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80B815F682A700583C39 /* ANNinjaAgent.m */; };
-		B98B80BA15F682A700583C39 /* ANNinjaAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80B815F682A700583C39 /* ANNinjaAgent.m */; };
+		B9BC310415F68B6A0009DD6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B809D15F66D7100583C39 /* UIKit.framework */; };
+		B9BC310515F68B6A0009DD6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
+		B9BC310715F68B6A0009DD6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BC310615F68B6A0009DD6D /* CoreGraphics.framework */; };
+		B9BC310D15F68B6A0009DD6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BC310B15F68B6A0009DD6D /* InfoPlist.strings */; };
+		B9BC310F15F68B6A0009DD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC310E15F68B6A0009DD6D /* main.m */; };
+		B9BC311315F68B6A0009DD6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC311215F68B6A0009DD6D /* AppDelegate.m */; };
+		B9BC311615F68B6A0009DD6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC311515F68B6A0009DD6D /* ViewController.m */; };
+		B9BC312315F68B6A0009DD6D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B808115F5D29000583C39 /* SenTestingKit.framework */; };
+		B9BC312415F68B6A0009DD6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B809D15F66D7100583C39 /* UIKit.framework */; };
+		B9BC312515F68B6A0009DD6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
+		B9BC312D15F68B6A0009DD6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BC312B15F68B6A0009DD6D /* InfoPlist.strings */; };
+		B9BC313015F68B6A0009DD6D /* NinjaTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC312F15F68B6A0009DD6D /* NinjaTestAppTests.m */; };
+		B9BC313A15F68C8A0009DD6D /* UIAlertView+Ninja.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */; };
+		B9BC313B15F68C8A0009DD6D /* ANNinjaAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80B815F682A700583C39 /* ANNinjaAgent.m */; };
+		B9BC314415F68D250009DD6D /* ANNinjaReport.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC313F15F68CB30009DD6D /* ANNinjaReport.m */; };
+		B9BC314515F68D260009DD6D /* ANNinjaReport.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC313F15F68CB30009DD6D /* ANNinjaReport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B98B808615F5D29000583C39 /* PBXContainerItemProxy */ = {
+		B9BC312615F68B6A0009DD6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B98B806615F5D28F00583C39 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B98B806E15F5D28F00583C39;
-			remoteInfo = AlertNinja;
+			remoteGlobalIDString = B9BC310115F68B6A0009DD6D;
+			remoteInfo = NinjaTestApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,19 +58,29 @@
 		B98B807215F5D28F00583C39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B98B807615F5D28F00583C39 /* AlertNinja-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertNinja-Prefix.pch"; sourceTree = "<group>"; };
 		B98B807715F5D28F00583C39 /* AlertNinja.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertNinja.h; sourceTree = "<group>"; };
-		B98B808015F5D29000583C39 /* AlertNinjaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertNinjaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98B808115F5D29000583C39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B98B808B15F5D29000583C39 /* AlertNinjaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertNinjaTests-Info.plist"; sourceTree = "<group>"; };
-		B98B808D15F5D29000583C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B98B808F15F5D29000583C39 /* AlertNinjaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertNinjaTests.h; sourceTree = "<group>"; };
-		B98B809015F5D29000583C39 /* AlertNinjaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertNinjaTests.m; sourceTree = "<group>"; };
 		B98B809D15F66D7100583C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B98B80A115F66F2E00583C39 /* NinjaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinjaViewController.h; sourceTree = "<group>"; };
-		B98B80A215F66F2E00583C39 /* NinjaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinjaViewController.m; sourceTree = "<group>"; };
 		B98B80A415F6795100583C39 /* UIAlertView+Ninja.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Ninja.h"; sourceTree = "<group>"; };
 		B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Ninja.m"; sourceTree = "<group>"; };
 		B98B80B715F682A700583C39 /* ANNinjaAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNinjaAgent.h; sourceTree = "<group>"; };
 		B98B80B815F682A700583C39 /* ANNinjaAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNinjaAgent.m; sourceTree = "<group>"; };
+		B9BC310215F68B6A0009DD6D /* NinjaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BC310615F68B6A0009DD6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9BC310A15F68B6A0009DD6D /* NinjaTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NinjaTestApp-Info.plist"; sourceTree = "<group>"; };
+		B9BC310C15F68B6A0009DD6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9BC310E15F68B6A0009DD6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9BC311015F68B6A0009DD6D /* NinjaTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NinjaTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		B9BC311115F68B6A0009DD6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9BC311215F68B6A0009DD6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9BC311415F68B6A0009DD6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9BC311515F68B6A0009DD6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9BC312215F68B6A0009DD6D /* NinjaTestAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaTestAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BC312A15F68B6A0009DD6D /* NinjaTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NinjaTestAppTests-Info.plist"; sourceTree = "<group>"; };
+		B9BC312C15F68B6A0009DD6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9BC312E15F68B6A0009DD6D /* NinjaTestAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NinjaTestAppTests.h; sourceTree = "<group>"; };
+		B9BC312F15F68B6A0009DD6D /* NinjaTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NinjaTestAppTests.m; sourceTree = "<group>"; };
+		B9BC313E15F68CB30009DD6D /* ANNinjaReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNinjaReport.h; sourceTree = "<group>"; };
+		B9BC313F15F68CB30009DD6D /* ANNinjaReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNinjaReport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +93,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B98B807C15F5D29000583C39 /* Frameworks */ = {
+		B9BC30FF15F68B6A0009DD6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98B808215F5D29000583C39 /* SenTestingKit.framework in Frameworks */,
-				B98B808515F5D29000583C39 /* Foundation.framework in Frameworks */,
-				B98B808815F5D29000583C39 /* libAlertNinja.a in Frameworks */,
-				B98B80A015F66F1400583C39 /* UIKit.framework in Frameworks */,
+				B9BC310415F68B6A0009DD6D /* UIKit.framework in Frameworks */,
+				B9BC310515F68B6A0009DD6D /* Foundation.framework in Frameworks */,
+				B9BC310715F68B6A0009DD6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BC311E15F68B6A0009DD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BC312315F68B6A0009DD6D /* SenTestingKit.framework in Frameworks */,
+				B9BC312415F68B6A0009DD6D /* UIKit.framework in Frameworks */,
+				B9BC312515F68B6A0009DD6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				B98B807415F5D28F00583C39 /* AlertNinja */,
-				B98B808915F5D29000583C39 /* AlertNinjaTests */,
+				B9BC310815F68B6A0009DD6D /* NinjaTestApp */,
+				B9BC312815F68B6A0009DD6D /* NinjaTestAppTests */,
 				B98B807115F5D28F00583C39 /* Frameworks */,
 				B98B807015F5D28F00583C39 /* Products */,
 			);
@@ -104,7 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				B98B806F15F5D28F00583C39 /* libAlertNinja.a */,
-				B98B808015F5D29000583C39 /* AlertNinjaTests.octest */,
+				B9BC310215F68B6A0009DD6D /* NinjaTestApp.app */,
+				B9BC312215F68B6A0009DD6D /* NinjaTestAppTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +143,7 @@
 				B98B809D15F66D7100583C39 /* UIKit.framework */,
 				B98B807215F5D28F00583C39 /* Foundation.framework */,
 				B98B808115F5D29000583C39 /* SenTestingKit.framework */,
+				B9BC310615F68B6A0009DD6D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +156,8 @@
 				B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */,
 				B98B80B715F682A700583C39 /* ANNinjaAgent.h */,
 				B98B80B815F682A700583C39 /* ANNinjaAgent.m */,
+				B9BC313E15F68CB30009DD6D /* ANNinjaReport.h */,
+				B9BC313F15F68CB30009DD6D /* ANNinjaReport.m */,
 				B98B807515F5D28F00583C39 /* Supporting Files */,
 			);
 			path = AlertNinja;
@@ -140,23 +171,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B98B808915F5D29000583C39 /* AlertNinjaTests */ = {
+		B9BC310815F68B6A0009DD6D /* NinjaTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				B98B808F15F5D29000583C39 /* AlertNinjaTests.h */,
-				B98B809015F5D29000583C39 /* AlertNinjaTests.m */,
-				B98B808A15F5D29000583C39 /* Supporting Files */,
-				B98B80A115F66F2E00583C39 /* NinjaViewController.h */,
-				B98B80A215F66F2E00583C39 /* NinjaViewController.m */,
+				B9BC311115F68B6A0009DD6D /* AppDelegate.h */,
+				B9BC311215F68B6A0009DD6D /* AppDelegate.m */,
+				B9BC311415F68B6A0009DD6D /* ViewController.h */,
+				B9BC311515F68B6A0009DD6D /* ViewController.m */,
+				B9BC310915F68B6A0009DD6D /* Supporting Files */,
 			);
-			path = AlertNinjaTests;
+			path = NinjaTestApp;
 			sourceTree = "<group>";
 		};
-		B98B808A15F5D29000583C39 /* Supporting Files */ = {
+		B9BC310915F68B6A0009DD6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B98B808B15F5D29000583C39 /* AlertNinjaTests-Info.plist */,
-				B98B808C15F5D29000583C39 /* InfoPlist.strings */,
+				B9BC310A15F68B6A0009DD6D /* NinjaTestApp-Info.plist */,
+				B9BC310B15F68B6A0009DD6D /* InfoPlist.strings */,
+				B9BC310E15F68B6A0009DD6D /* main.m */,
+				B9BC311015F68B6A0009DD6D /* NinjaTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9BC312815F68B6A0009DD6D /* NinjaTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BC312E15F68B6A0009DD6D /* NinjaTestAppTests.h */,
+				B9BC312F15F68B6A0009DD6D /* NinjaTestAppTests.m */,
+				B9BC312915F68B6A0009DD6D /* Supporting Files */,
+			);
+			path = NinjaTestAppTests;
+			sourceTree = "<group>";
+		};
+		B9BC312915F68B6A0009DD6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BC312A15F68B6A0009DD6D /* NinjaTestAppTests-Info.plist */,
+				B9BC312B15F68B6A0009DD6D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,23 +233,40 @@
 			productReference = B98B806F15F5D28F00583C39 /* libAlertNinja.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B98B807F15F5D29000583C39 /* AlertNinjaTests */ = {
+		B9BC310115F68B6A0009DD6D /* NinjaTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B98B809715F5D29000583C39 /* Build configuration list for PBXNativeTarget "AlertNinjaTests" */;
+			buildConfigurationList = B9BC313515F68B6A0009DD6D /* Build configuration list for PBXNativeTarget "NinjaTestApp" */;
 			buildPhases = (
-				B98B807B15F5D29000583C39 /* Sources */,
-				B98B807C15F5D29000583C39 /* Frameworks */,
-				B98B807D15F5D29000583C39 /* Resources */,
-				B98B807E15F5D29000583C39 /* ShellScript */,
+				B9BC30FE15F68B6A0009DD6D /* Sources */,
+				B9BC30FF15F68B6A0009DD6D /* Frameworks */,
+				B9BC310015F68B6A0009DD6D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B98B808715F5D29000583C39 /* PBXTargetDependency */,
 			);
-			name = AlertNinjaTests;
-			productName = AlertNinjaTests;
-			productReference = B98B808015F5D29000583C39 /* AlertNinjaTests.octest */;
+			name = NinjaTestApp;
+			productName = NinjaTestApp;
+			productReference = B9BC310215F68B6A0009DD6D /* NinjaTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9BC312115F68B6A0009DD6D /* NinjaTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BC313615F68B6A0009DD6D /* Build configuration list for PBXNativeTarget "NinjaTestAppTests" */;
+			buildPhases = (
+				B9BC311D15F68B6A0009DD6D /* Sources */,
+				B9BC311E15F68B6A0009DD6D /* Frameworks */,
+				B9BC311F15F68B6A0009DD6D /* Resources */,
+				B9BC312015F68B6A0009DD6D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BC312715F68B6A0009DD6D /* PBXTargetDependency */,
+			);
+			name = NinjaTestAppTests;
+			productName = NinjaTestAppTests;
+			productReference = B9BC312215F68B6A0009DD6D /* NinjaTestAppTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -222,24 +291,33 @@
 			projectRoot = "";
 			targets = (
 				B98B806E15F5D28F00583C39 /* AlertNinja */,
-				B98B807F15F5D29000583C39 /* AlertNinjaTests */,
+				B9BC310115F68B6A0009DD6D /* NinjaTestApp */,
+				B9BC312115F68B6A0009DD6D /* NinjaTestAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B98B807D15F5D29000583C39 /* Resources */ = {
+		B9BC310015F68B6A0009DD6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98B808E15F5D29000583C39 /* InfoPlist.strings in Resources */,
+				B9BC310D15F68B6A0009DD6D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BC311F15F68B6A0009DD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BC312D15F68B6A0009DD6D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B98B807E15F5D29000583C39 /* ShellScript */ = {
+		B9BC312015F68B6A0009DD6D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,35 +339,54 @@
 			files = (
 				B98B80A615F6795100583C39 /* UIAlertView+Ninja.m in Sources */,
 				B98B80B915F682A700583C39 /* ANNinjaAgent.m in Sources */,
+				B9BC314415F68D250009DD6D /* ANNinjaReport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B98B807B15F5D29000583C39 /* Sources */ = {
+		B9BC30FE15F68B6A0009DD6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98B809115F5D29000583C39 /* AlertNinjaTests.m in Sources */,
-				B98B80A315F66F2E00583C39 /* NinjaViewController.m in Sources */,
-				B98B80A715F6795100583C39 /* UIAlertView+Ninja.m in Sources */,
-				B98B80BA15F682A700583C39 /* ANNinjaAgent.m in Sources */,
+				B9BC310F15F68B6A0009DD6D /* main.m in Sources */,
+				B9BC311315F68B6A0009DD6D /* AppDelegate.m in Sources */,
+				B9BC311615F68B6A0009DD6D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BC311D15F68B6A0009DD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BC313015F68B6A0009DD6D /* NinjaTestAppTests.m in Sources */,
+				B9BC313A15F68C8A0009DD6D /* UIAlertView+Ninja.m in Sources */,
+				B9BC313B15F68C8A0009DD6D /* ANNinjaAgent.m in Sources */,
+				B9BC314515F68D260009DD6D /* ANNinjaReport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B98B808715F5D29000583C39 /* PBXTargetDependency */ = {
+		B9BC312715F68B6A0009DD6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B98B806E15F5D28F00583C39 /* AlertNinja */;
-			targetProxy = B98B808615F5D29000583C39 /* PBXContainerItemProxy */;
+			target = B9BC310115F68B6A0009DD6D /* NinjaTestApp */;
+			targetProxy = B9BC312615F68B6A0009DD6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B98B808C15F5D29000583C39 /* InfoPlist.strings */ = {
+		B9BC310B15F68B6A0009DD6D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B98B808D15F5D29000583C39 /* en */,
+				B9BC310C15F68B6A0009DD6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9BC312B15F68B6A0009DD6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BC312C15F68B6A0009DD6D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -375,32 +472,63 @@
 			};
 			name = Release;
 		};
-		B98B809815F5D29000583C39 /* Debug */ = {
+		B9BC313115F68B6A0009DD6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NinjaTestApp/NinjaTestApp-Prefix.pch";
+				INFOPLIST_FILE = "NinjaTestApp/NinjaTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9BC313215F68B6A0009DD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NinjaTestApp/NinjaTestApp-Prefix.pch";
+				INFOPLIST_FILE = "NinjaTestApp/NinjaTestApp-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9BC313315F68B6A0009DD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NinjaTestApp.app/NinjaTestApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
-				INFOPLIST_FILE = "AlertNinjaTests/AlertNinjaTests-Info.plist";
+				GCC_PREFIX_HEADER = "NinjaTestApp/NinjaTestApp-Prefix.pch";
+				INFOPLIST_FILE = "NinjaTestAppTests/NinjaTestAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		B98B809915F5D29000583C39 /* Release */ = {
+		B9BC313415F68B6A0009DD6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NinjaTestApp.app/NinjaTestApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
-				INFOPLIST_FILE = "AlertNinjaTests/AlertNinjaTests-Info.plist";
+				GCC_PREFIX_HEADER = "NinjaTestApp/NinjaTestApp-Prefix.pch";
+				INFOPLIST_FILE = "NinjaTestAppTests/NinjaTestAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -424,12 +552,21 @@
 				B98B809615F5D29000583C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B98B809715F5D29000583C39 /* Build configuration list for PBXNativeTarget "AlertNinjaTests" */ = {
+		B9BC313515F68B6A0009DD6D /* Build configuration list for PBXNativeTarget "NinjaTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B98B809815F5D29000583C39 /* Debug */,
-				B98B809915F5D29000583C39 /* Release */,
+				B9BC313115F68B6A0009DD6D /* Debug */,
+				B9BC313215F68B6A0009DD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9BC313615F68B6A0009DD6D /* Build configuration list for PBXNativeTarget "NinjaTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BC313315F68B6A0009DD6D /* Debug */,
+				B9BC313415F68B6A0009DD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

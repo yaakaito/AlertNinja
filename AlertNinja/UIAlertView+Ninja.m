@@ -7,7 +7,11 @@
 //
 
 #import "UIAlertView+Ninja.h"
+#import "ANNinjaAgent.h"
 
 @implementation UIAlertView (Ninja)
 
++ (id)ninja {
+    return [ANNinjaAgent sharedNinjaAgent];
+}
 @end

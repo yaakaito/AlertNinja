@@ -7,4 +7,5 @@
 //
 
 #import "UIAlertView+Ninja.h"
+#import "ANNinjaReport.h"
 #import "ANNinjaAgent.h"
