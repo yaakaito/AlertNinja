@@ -122,12 +122,12 @@
 		B98B807415F5D28F00583C39 /* AlertNinja */ = {
 			isa = PBXGroup;
 			children = (
-				B98B80B715F682A700583C39 /* ANNinjaAgent.h */,
-				B98B80B815F682A700583C39 /* ANNinjaAgent.m */,
 				B98B807715F5D28F00583C39 /* AlertNinja.h */,
-				B98B807515F5D28F00583C39 /* Supporting Files */,
 				B98B80A415F6795100583C39 /* UIAlertView+Ninja.h */,
 				B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */,
+				B98B80B715F682A700583C39 /* ANNinjaAgent.h */,
+				B98B80B815F682A700583C39 /* ANNinjaAgent.m */,
+				B98B807515F5D28F00583C39 /* Supporting Files */,
 			);
 			path = AlertNinja;
 			sourceTree = "<group>";
