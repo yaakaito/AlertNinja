@@ -15,7 +15,6 @@
 		B9BC310415F68B6A0009DD6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B809D15F66D7100583C39 /* UIKit.framework */; };
 		B9BC310515F68B6A0009DD6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
 		B9BC310715F68B6A0009DD6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BC310615F68B6A0009DD6D /* CoreGraphics.framework */; };
-		B9BC310D15F68B6A0009DD6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BC310B15F68B6A0009DD6D /* InfoPlist.strings */; };
 		B9BC310F15F68B6A0009DD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC310E15F68B6A0009DD6D /* main.m */; };
 		B9BC311315F68B6A0009DD6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC311215F68B6A0009DD6D /* AppDelegate.m */; };
 		B9BC311615F68B6A0009DD6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC311515F68B6A0009DD6D /* ViewController.m */; };
@@ -67,7 +66,6 @@
 		B9BC310215F68B6A0009DD6D /* NinjaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BC310615F68B6A0009DD6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B9BC310A15F68B6A0009DD6D /* NinjaTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NinjaTestApp-Info.plist"; sourceTree = "<group>"; };
-		B9BC310C15F68B6A0009DD6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9BC310E15F68B6A0009DD6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9BC311015F68B6A0009DD6D /* NinjaTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NinjaTestApp-Prefix.pch"; sourceTree = "<group>"; };
 		B9BC311115F68B6A0009DD6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -187,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				B9BC310A15F68B6A0009DD6D /* NinjaTestApp-Info.plist */,
-				B9BC310B15F68B6A0009DD6D /* InfoPlist.strings */,
 				B9BC310E15F68B6A0009DD6D /* main.m */,
 				B9BC311015F68B6A0009DD6D /* NinjaTestApp-Prefix.pch */,
 			);
@@ -302,7 +299,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BC310D15F68B6A0009DD6D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,14 +371,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B9BC310B15F68B6A0009DD6D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9BC310C15F68B6A0009DD6D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		B9BC312B15F68B6A0009DD6D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

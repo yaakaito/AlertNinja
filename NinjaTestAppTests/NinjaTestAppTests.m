@@ -42,14 +42,14 @@
     
 }
 
-- (void)testConfim
+
+- (void)testConfirm
 {
     
     [[[UIAlertView ninja] spy] andSelectIndexAt:2];
     [viewController showConfirm];
     UIAlertView *alert = [[[[UIAlertView ninja] report] showedAlerts] lastObject];
     STAssertEqualObjects(@"Ninja", alert.title, @"alert title is Ninja");
-    [[UIAlertView ninja] complete];
     
     STAssertTrue(viewController.calledWillPresent, @"called will present delegate method");
     STAssertTrue(viewController.calledDidPresent, @"called did present delegate method");
@@ -57,7 +57,11 @@
     STAssertTrue(viewController.calledDidDismiss, @"called did dismiss delegate method");
     STAssertTrue(viewController.calledClickedButtonAtIndex, @"called did clicked button at Index");
     STAssertEqualObjects(@"Kunoichi", viewController.result, @"result is 'Kunoichi'");
+    
+    [[UIAlertView ninja] complete];
+    
 }
+
 
 
 @end

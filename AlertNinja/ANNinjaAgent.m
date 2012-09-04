@@ -13,6 +13,8 @@
 @interface ANNinjaAgent()
 @property (nonatomic) NSInteger selectIndex;
 @property (nonatomic, strong) ANNinjaReport *currentReport;
+@property (nonatomic) SEL realShowSelector;
+@property (nonatomic) SEL ninjaShowSelector;
 - (void)showedAlert:(UIAlertView*)alert;
 @end
 
@@ -22,10 +24,7 @@
 }
 @end
 
-@implementation ANNinjaAgent {
-    SEL realShowSelector;
-    SEL ninjaShowSelector;
-}
+@implementation ANNinjaAgent
 
 + (void)swapInstanceMethodsForClass: (Class) cls selector: (SEL)sel1 andSelector: (SEL)sel2 {
     Method method1 = class_getInstanceMethod(cls, sel1);
@@ -46,14 +45,14 @@
 }
 
 - (void)setup {
-    realShowSelector = @selector(show);
-    ninjaShowSelector = @selector(ninjaAgent_show);
+    self.realShowSelector = @selector(show);
+    self.ninjaShowSelector = @selector(ninjaAgent_show);
 }
 
 
 - (void)fetchMethods {
     
-    [ANNinjaAgent swapInstanceMethodsForClass:[UIAlertView class] selector:realShowSelector andSelector:ninjaShowSelector];
+    [ANNinjaAgent swapInstanceMethodsForClass:[UIAlertView class] selector:self.realShowSelector andSelector:self.ninjaShowSelector];
 }
 
 - (id)spy {
