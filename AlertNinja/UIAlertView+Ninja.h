@@ -10,4 +10,6 @@
 
 @interface UIAlertView (Ninja)
 
++ (id)spy;
++ (void)complete;
 @end
