@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B98B807315F5D28F00583C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
+		B98B807815F5D28F00583C39 /* AlertNinja.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B98B807715F5D28F00583C39 /* AlertNinja.h */; };
+		B98B807A15F5D28F00583C39 /* AlertNinja.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B807915F5D28F00583C39 /* AlertNinja.m */; };
+		B98B808215F5D29000583C39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B808115F5D29000583C39 /* SenTestingKit.framework */; };
+		B98B808415F5D29000583C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B808315F5D29000583C39 /* UIKit.framework */; };
+		B98B808515F5D29000583C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
+		B98B808815F5D29000583C39 /* libAlertNinja.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B806F15F5D28F00583C39 /* libAlertNinja.a */; };
+		B98B808E15F5D29000583C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B98B808C15F5D29000583C39 /* InfoPlist.strings */; };
+		B98B809115F5D29000583C39 /* AlertNinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B809015F5D29000583C39 /* AlertNinjaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B98B808615F5D29000583C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B98B806615F5D28F00583C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B98B806E15F5D28F00583C39;
+			remoteInfo = AlertNinja;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B98B806D15F5D28F00583C39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				B98B807815F5D28F00583C39 /* AlertNinja.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B98B806F15F5D28F00583C39 /* libAlertNinja.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlertNinja.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98B807215F5D28F00583C39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B98B807615F5D28F00583C39 /* AlertNinja-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertNinja-Prefix.pch"; sourceTree = "<group>"; };
+		B98B807715F5D28F00583C39 /* AlertNinja.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertNinja.h; sourceTree = "<group>"; };
+		B98B807915F5D28F00583C39 /* AlertNinja.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertNinja.m; sourceTree = "<group>"; };
+		B98B808015F5D29000583C39 /* AlertNinjaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertNinjaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98B808115F5D29000583C39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B98B808315F5D29000583C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B98B808B15F5D29000583C39 /* AlertNinjaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertNinjaTests-Info.plist"; sourceTree = "<group>"; };
+		B98B808D15F5D29000583C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B98B808F15F5D29000583C39 /* AlertNinjaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertNinjaTests.h; sourceTree = "<group>"; };
+		B98B809015F5D29000583C39 /* AlertNinjaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertNinjaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B98B806C15F5D28F00583C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B807315F5D28F00583C39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98B807C15F5D29000583C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B808215F5D29000583C39 /* SenTestingKit.framework in Frameworks */,
+				B98B808415F5D29000583C39 /* UIKit.framework in Frameworks */,
+				B98B808515F5D29000583C39 /* Foundation.framework in Frameworks */,
+				B98B808815F5D29000583C39 /* libAlertNinja.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B98B806415F5D28F00583C39 = {
+			isa = PBXGroup;
+			children = (
+				B98B807415F5D28F00583C39 /* AlertNinja */,
+				B98B808915F5D29000583C39 /* AlertNinjaTests */,
+				B98B807115F5D28F00583C39 /* Frameworks */,
+				B98B807015F5D28F00583C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B98B807015F5D28F00583C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98B806F15F5D28F00583C39 /* libAlertNinja.a */,
+				B98B808015F5D29000583C39 /* AlertNinjaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B98B807115F5D28F00583C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B98B807215F5D28F00583C39 /* Foundation.framework */,
+				B98B808115F5D29000583C39 /* SenTestingKit.framework */,
+				B98B808315F5D29000583C39 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B98B807415F5D28F00583C39 /* AlertNinja */ = {
+			isa = PBXGroup;
+			children = (
+				B98B807715F5D28F00583C39 /* AlertNinja.h */,
+				B98B807915F5D28F00583C39 /* AlertNinja.m */,
+				B98B807515F5D28F00583C39 /* Supporting Files */,
+			);
+			path = AlertNinja;
+			sourceTree = "<group>";
+		};
+		B98B807515F5D28F00583C39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B98B807615F5D28F00583C39 /* AlertNinja-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B98B808915F5D29000583C39 /* AlertNinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B98B808F15F5D29000583C39 /* AlertNinjaTests.h */,
+				B98B809015F5D29000583C39 /* AlertNinjaTests.m */,
+				B98B808A15F5D29000583C39 /* Supporting Files */,
+			);
+			path = AlertNinjaTests;
+			sourceTree = "<group>";
+		};
+		B98B808A15F5D29000583C39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B98B808B15F5D29000583C39 /* AlertNinjaTests-Info.plist */,
+				B98B808C15F5D29000583C39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B98B806E15F5D28F00583C39 /* AlertNinja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98B809415F5D29000583C39 /* Build configuration list for PBXNativeTarget "AlertNinja" */;
+			buildPhases = (
+				B98B806B15F5D28F00583C39 /* Sources */,
+				B98B806C15F5D28F00583C39 /* Frameworks */,
+				B98B806D15F5D28F00583C39 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertNinja;
+			productName = AlertNinja;
+			productReference = B98B806F15F5D28F00583C39 /* libAlertNinja.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B98B807F15F5D29000583C39 /* AlertNinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98B809715F5D29000583C39 /* Build configuration list for PBXNativeTarget "AlertNinjaTests" */;
+			buildPhases = (
+				B98B807B15F5D29000583C39 /* Sources */,
+				B98B807C15F5D29000583C39 /* Frameworks */,
+				B98B807D15F5D29000583C39 /* Resources */,
+				B98B807E15F5D29000583C39 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B98B808715F5D29000583C39 /* PBXTargetDependency */,
+			);
+			name = AlertNinjaTests;
+			productName = AlertNinjaTests;
+			productReference = B98B808015F5D29000583C39 /* AlertNinjaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B98B806615F5D28F00583C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = yaakaito;
+			};
+			buildConfigurationList = B98B806915F5D28F00583C39 /* Build configuration list for PBXProject "AlertNinja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B98B806415F5D28F00583C39;
+			productRefGroup = B98B807015F5D28F00583C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B98B806E15F5D28F00583C39 /* AlertNinja */,
+				B98B807F15F5D29000583C39 /* AlertNinjaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B98B807D15F5D29000583C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B808E15F5D29000583C39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B98B807E15F5D29000583C39 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B98B806B15F5D28F00583C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B807A15F5D28F00583C39 /* AlertNinja.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98B807B15F5D29000583C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B809115F5D29000583C39 /* AlertNinjaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B98B808715F5D29000583C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B98B806E15F5D28F00583C39 /* AlertNinja */;
+			targetProxy = B98B808615F5D29000583C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B98B808C15F5D29000583C39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B98B808D15F5D29000583C39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B98B809215F5D29000583C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B98B809315F5D29000583C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B98B809515F5D29000583C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AlertNinja.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B98B809615F5D29000583C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AlertNinja.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B98B809815F5D29000583C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
+				INFOPLIST_FILE = "AlertNinjaTests/AlertNinjaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B98B809915F5D29000583C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
+				INFOPLIST_FILE = "AlertNinjaTests/AlertNinjaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B98B806915F5D28F00583C39 /* Build configuration list for PBXProject "AlertNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98B809215F5D29000583C39 /* Debug */,
+				B98B809315F5D29000583C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98B809415F5D29000583C39 /* Build configuration list for PBXNativeTarget "AlertNinja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98B809515F5D29000583C39 /* Debug */,
+				B98B809615F5D29000583C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B98B809715F5D29000583C39 /* Build configuration list for PBXNativeTarget "AlertNinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98B809815F5D29000583C39 /* Debug */,
+				B98B809915F5D29000583C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B98B806615F5D28F00583C39 /* Project object */;
+}
