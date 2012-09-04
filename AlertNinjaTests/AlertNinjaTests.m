@@ -7,14 +7,20 @@
 //
 
 #import "AlertNinjaTests.h"
+#import "NinjaViewController.h"
+//#import "UIAlertView+Ninja.h
 
-@implementation AlertNinjaTests
+@implementation AlertNinjaTests {
+    
+    NinjaViewController *viewController;
+}
 
 - (void)setUp
 {
     [super setUp];
     
     // Set-up code here.
+    viewController = [[NinjaViewController alloc] init];
 }
 
 - (void)tearDown
@@ -24,9 +30,31 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testDialog
 {
-    STFail(@"Unit tests are not implemented yet in AlertNinjaTests");
+    
+    [[UIAlertView ninja] spy];
+    [viewController showDialog];
+    UIAlertView *alert = [[[[UIAlertView ninja] report] showedAlerts] lastObject];
+    STAssertEqualObjects(@"Ninja", alert.title, @"alert title is Ninja");
+    [[UIAlertView ninja] complete];
+    
+}
+
+- (void)testDialog
+{
+    
+    [[[UIAlertView ninja] spy] andSelectAt:2];
+    [viewController showDialog];
+    UIAlertView *alert = [[[[UIAlertView ninja] report] showedAlerts] lastObject];
+    STAssertEqualObjects(@"Ninja", alert.title, @"alert title is Ninja");
+    [[UIAlertView ninja] complete];
+    STAssertTrue(viewController.calledWillPresent, @"called will present delegate method");
+    STAssertTrue(viewController.calledDidPresent, @"called did present delegate method");
+    STAssertTrue(viewController.calledWillDismiss, @"called will dismiss delegate method");
+    STAssertTrue(viewController.calledDidDismiss, @"called did dismiss delegate method");
+    STAssertTrue(viewController.calledClickedButtonAtIndex, @"called did clicked button at Index");
+    STAssertEqualObjects(@"Kunoichi", viewController.result, @"result is 'Kunoichi'");
 }
 
 @end

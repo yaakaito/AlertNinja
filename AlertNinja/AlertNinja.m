@@ -10,4 +10,7 @@
 
 @implementation AlertNinja
 
+- (void)hoge {
+    
+}
 @end

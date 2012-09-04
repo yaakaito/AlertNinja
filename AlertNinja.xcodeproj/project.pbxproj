@@ -11,11 +11,17 @@
 		B98B807815F5D28F00583C39 /* AlertNinja.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B98B807715F5D28F00583C39 /* AlertNinja.h */; };
 		B98B807A15F5D28F00583C39 /* AlertNinja.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B807915F5D28F00583C39 /* AlertNinja.m */; };
 		B98B808215F5D29000583C39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B808115F5D29000583C39 /* SenTestingKit.framework */; };
-		B98B808415F5D29000583C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B808315F5D29000583C39 /* UIKit.framework */; };
 		B98B808515F5D29000583C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B807215F5D28F00583C39 /* Foundation.framework */; };
 		B98B808815F5D29000583C39 /* libAlertNinja.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B806F15F5D28F00583C39 /* libAlertNinja.a */; };
 		B98B808E15F5D29000583C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B98B808C15F5D29000583C39 /* InfoPlist.strings */; };
 		B98B809115F5D29000583C39 /* AlertNinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B809015F5D29000583C39 /* AlertNinjaTests.m */; };
+		B98B809E15F66D7100583C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B809D15F66D7100583C39 /* UIKit.framework */; };
+		B98B80A015F66F1400583C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B809D15F66D7100583C39 /* UIKit.framework */; };
+		B98B80A315F66F2E00583C39 /* NinjaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80A215F66F2E00583C39 /* NinjaViewController.m */; };
+		B98B80A615F6795100583C39 /* UIAlertView+Ninja.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */; };
+		B98B80A715F6795100583C39 /* UIAlertView+Ninja.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */; };
+		B98B80B915F682A700583C39 /* ANNinjaAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80B815F682A700583C39 /* ANNinjaAgent.m */; };
+		B98B80BA15F682A700583C39 /* ANNinjaAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B80B815F682A700583C39 /* ANNinjaAgent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +55,17 @@
 		B98B807915F5D28F00583C39 /* AlertNinja.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertNinja.m; sourceTree = "<group>"; };
 		B98B808015F5D29000583C39 /* AlertNinjaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertNinjaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98B808115F5D29000583C39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B98B808315F5D29000583C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B98B808B15F5D29000583C39 /* AlertNinjaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertNinjaTests-Info.plist"; sourceTree = "<group>"; };
 		B98B808D15F5D29000583C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B98B808F15F5D29000583C39 /* AlertNinjaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertNinjaTests.h; sourceTree = "<group>"; };
 		B98B809015F5D29000583C39 /* AlertNinjaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertNinjaTests.m; sourceTree = "<group>"; };
+		B98B809D15F66D7100583C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B98B80A115F66F2E00583C39 /* NinjaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinjaViewController.h; sourceTree = "<group>"; };
+		B98B80A215F66F2E00583C39 /* NinjaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinjaViewController.m; sourceTree = "<group>"; };
+		B98B80A415F6795100583C39 /* UIAlertView+Ninja.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Ninja.h"; sourceTree = "<group>"; };
+		B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Ninja.m"; sourceTree = "<group>"; };
+		B98B80B715F682A700583C39 /* ANNinjaAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNinjaAgent.h; sourceTree = "<group>"; };
+		B98B80B815F682A700583C39 /* ANNinjaAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNinjaAgent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98B809E15F66D7100583C39 /* UIKit.framework in Frameworks */,
 				B98B807315F5D28F00583C39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,9 +83,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98B808215F5D29000583C39 /* SenTestingKit.framework in Frameworks */,
-				B98B808415F5D29000583C39 /* UIKit.framework in Frameworks */,
 				B98B808515F5D29000583C39 /* Foundation.framework in Frameworks */,
 				B98B808815F5D29000583C39 /* libAlertNinja.a in Frameworks */,
+				B98B80A015F66F1400583C39 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +114,9 @@
 		B98B807115F5D28F00583C39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B98B809D15F66D7100583C39 /* UIKit.framework */,
 				B98B807215F5D28F00583C39 /* Foundation.framework */,
 				B98B808115F5D29000583C39 /* SenTestingKit.framework */,
-				B98B808315F5D29000583C39 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,9 +124,13 @@
 		B98B807415F5D28F00583C39 /* AlertNinja */ = {
 			isa = PBXGroup;
 			children = (
+				B98B80B715F682A700583C39 /* ANNinjaAgent.h */,
+				B98B80B815F682A700583C39 /* ANNinjaAgent.m */,
 				B98B807715F5D28F00583C39 /* AlertNinja.h */,
 				B98B807915F5D28F00583C39 /* AlertNinja.m */,
 				B98B807515F5D28F00583C39 /* Supporting Files */,
+				B98B80A415F6795100583C39 /* UIAlertView+Ninja.h */,
+				B98B80A515F6795100583C39 /* UIAlertView+Ninja.m */,
 			);
 			path = AlertNinja;
 			sourceTree = "<group>";
@@ -132,6 +149,8 @@
 				B98B808F15F5D29000583C39 /* AlertNinjaTests.h */,
 				B98B809015F5D29000583C39 /* AlertNinjaTests.m */,
 				B98B808A15F5D29000583C39 /* Supporting Files */,
+				B98B80A115F66F2E00583C39 /* NinjaViewController.h */,
+				B98B80A215F66F2E00583C39 /* NinjaViewController.m */,
 			);
 			path = AlertNinjaTests;
 			sourceTree = "<group>";
@@ -244,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98B807A15F5D28F00583C39 /* AlertNinja.m in Sources */,
+				B98B80A615F6795100583C39 /* UIAlertView+Ninja.m in Sources */,
+				B98B80B915F682A700583C39 /* ANNinjaAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98B809115F5D29000583C39 /* AlertNinjaTests.m in Sources */,
+				B98B80A315F66F2E00583C39 /* NinjaViewController.m in Sources */,
+				B98B80A715F6795100583C39 /* UIAlertView+Ninja.m in Sources */,
+				B98B80BA15F682A700583C39 /* ANNinjaAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +351,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/AlertNinja.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -339,6 +367,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/AlertNinja.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AlertNinja/AlertNinja-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";

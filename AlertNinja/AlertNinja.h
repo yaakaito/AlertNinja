@@ -6,8 +6,12 @@
 //  Copyright (c) 2012年 yaakaito. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface AlertNinja : NSObject
+
+@end
+
+@interface UIAlertView(Ninja)
 
 @end
