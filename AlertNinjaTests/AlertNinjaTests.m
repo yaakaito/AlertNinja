@@ -8,7 +8,7 @@
 
 #import "AlertNinjaTests.h"
 #import "NinjaViewController.h"
-//#import "UIAlertView+Ninja.h
+#import "AlertNinja.h"
 
 @implementation AlertNinjaTests {
     
