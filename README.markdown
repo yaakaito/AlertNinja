@@ -15,6 +15,10 @@ With OCUnit example.
 
 ### Dialog
 ```objective-c
+#import "AlertNinja.h"
+```
+
+```objective-c
 - (void)showDialog {  
   UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Ninja"
                                                   message:@"doron"
