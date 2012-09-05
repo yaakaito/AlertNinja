@@ -23,9 +23,9 @@ With OCUnit example.
                                         otherButtonTitles:nil];
   [alert show];
 }
-``
+```
 
-``objective-c
+```objective-c
 - (void)testDialog
 {   
     [[UIAlertView ninja] spy];
@@ -35,7 +35,7 @@ With OCUnit example.
     [[UIAlertView ninja] complete];
     
 }
-``
+```
 
 ## Confirm
 
@@ -84,7 +84,7 @@ and delegate methods
 
 can simulate button click, use `andSelectIndexAt:`. and called UIAlertViewDelegate methods.
 
-``objective-c
+```objective-c
 - (void)testConfirm
 {
     [[[UIAlertView ninja] spy] andSelectIndexAt:2];
