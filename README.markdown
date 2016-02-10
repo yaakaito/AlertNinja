@@ -3,7 +3,7 @@ Invisible UIAlertView and spying.
 
 ## How to use
 
-Files copy or Cocoapods.
+Files copy or CocoaPods.
 
 ```
 pod 'AlertNinja'
